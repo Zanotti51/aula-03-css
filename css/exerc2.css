@@ -1,0 +1,63 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+html, body {
+  width: 100vw
+  height 100vh;
+}
+
+body{
+  overflow: auto;
+  background: rgb(255, 255, 255);
+}
+
+.quadrado{
+background: black;
+width: 50rem;
+height: 50rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+transition: all 1500ms;
+}
+
+
+.circle{
+background: red;
+width: 50rem;
+height: 50rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+transition: all 1500ms;
+}
+
+.circle>strong{
+  }
+
+.quadrado>strong{
+color: red;}
+.circle:hover{
+  background: #111;
+  transition: all 500ms;
+  border-radius: 0%;
+  color: red;
+
+}
+.quadrado:hover{
+  color: black  z;
+  background: red;
+  transition: all 500ms;
+  border-radius: 50%;
+}
+
+.quadrado:hover>strong{
+  color: black;
+}

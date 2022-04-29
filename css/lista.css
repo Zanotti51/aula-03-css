@@ -1,0 +1,78 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+html, body {
+  width: 100vw
+  height 100vh;
+}
+
+body{
+  overflow: auto;
+  background: rgb(255, 255, 255);
+}
+
+ul{
+  background: black;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: .25rem;
+}
+
+ul > li{
+  background: #f8f8f8;
+  border-radius: .25rem;
+  display: flex;
+  padding: 0.25rem;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+ul strong{
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul p{
+  font-size: 3rem;
+  color: gray;
+}
+
+ul > li > figure{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+background: #999 ;
+}
+
+ul > li img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(red, green, blue, alpha);
+}
+
+ul > li > .list-info {
+  padding: 2rem;
+  transition: 200ms;
+}
+
+ul > li + li {
+  margin-top: 0.5rem;
+}
+
+ul > li:hover{
+background: crimson;
+transition: all 400ms;
+}
+
+ul > li:hover > .list-info{
+  padding: 0 4rem;
+  color: #ffffff;
+
+}
+
